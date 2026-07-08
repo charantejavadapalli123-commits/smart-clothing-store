@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd clothing-store-locator && npm install && npm run build",
+  "outputDirectory": "clothing-store-locator/build",
+  "installCommand": "npm install",
+  "env": {
+    "SKIP_ENV_VALIDATION": "true"
+  }
+}

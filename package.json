@@ -1,0 +1,13 @@
+{
+  "name": "smart-clothing-store",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd clothing-store-locator && npm install && npm run build",
+    "start": "cd clothing-store-locator && npm start",
+    "test": "cd clothing-store-locator && npm test"
+  },
+  "workspaces": [
+    "clothing-store-locator"
+  ]
+}

@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "cd clothing-store-locator && npm install && npm run build",
-    "start": "cd clothing-store-locator && npm start",
-    "test": "cd clothing-store-locator && npm test"
-  },
-  "workspaces": [
-    "clothing-store-locator"
-  ]
+    "build": "npm --prefix clothing-store-locator run build",
+    "start": "npm --prefix clothing-store-locator start",
+    "test": "npm --prefix clothing-store-locator test"
+  }
 }

@@ -1,8 +1,5 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "npm --prefix clothing-store-locator run build",
   "outputDirectory": "clothing-store-locator/build",
-  "installCommand": "npm install",
-  "env": {
-    "SKIP_ENV_VALIDATION": "true"
-  }
+  "installCommand": "npm --prefix clothing-store-locator install"
 }

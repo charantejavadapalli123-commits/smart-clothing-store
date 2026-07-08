@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm --prefix clothing-store-locator run build",
+  "buildCommand": "npm --prefix clothing-store-locator install && npm --prefix clothing-store-locator run build",
   "outputDirectory": "clothing-store-locator/build",
-  "installCommand": "npm --prefix clothing-store-locator install"
+  "framework": "create-react-app"
 }
